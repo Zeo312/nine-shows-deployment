@@ -15,9 +15,12 @@ def processjson():
 
     for show in data["payload"]:
         if("drm" in show and "episodeCount" in show and "image" in show and
-                "slug" in show and "title" in show and show["drm"] is True and
+                "slug" in show and "title" in show and show["drm"] is True and 
                 show["episodeCount"] > 0):
-            image = show["image"]["showImage"]
+            if "showImage" in show["image"]:
+                image = show["image"]["showImage"]
+            else:
+                image = ""
             slug = show["slug"]
             title = show["title"]
             filtered_show = {"image": image, "slug": slug, "title": title}
