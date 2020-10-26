@@ -16,10 +16,10 @@ If invalid JSON is sent, a JSON response with HTTP status 400 Bad Request, and w
 
 ### Installation steps:
 
-Note: This API was written using Python 3.6.4
+Note: This API was written using Python 3.6.4 and tested on MacOS
 1. Clone the repository by copying the SSH link and running `git clone <paste_link_here>` in the directory you want to clone into
 2. cd into the cloned diretory, then create a python virtual environment (See https://docs.python.org/3/library/venv.html)
-   <br>`python3 -m venv venv` works on mac and windows
+   <br>`python3 -m venv venv` works on mac ]
 3. Activate the virtualenv: `source ./venv/bin/activate`
 4. Now run `pip install -r requirements.txt` 
 5. Run `export FLASK_APP=app.api`
