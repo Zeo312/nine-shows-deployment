@@ -1,7 +1,7 @@
 from flask import Flask
 import json
 
-from nine_coding_test.app.api import setup_api_routes
+from nine_coding_test_master.app.api import setup_api_routes
 
 #Create new instance of app to not disrupt the instance that's being served
 def create_app():
