@@ -12,6 +12,5 @@ def create_app():
  
 	return app
 
-if __name__ == "main":
-	create_app()
+
 
