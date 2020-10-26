@@ -1,7 +1,7 @@
 from flask import Flask
 
-from .api.routes import api
-from .api.routes import setup_api_routes
+from nine_coding_test.app.api.routes import api
+from nine_coding_test.app.api.routes import setup_api_routes
 
 def create_app():
 	app = Flask(__name__)
