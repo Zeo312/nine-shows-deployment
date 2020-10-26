@@ -17,7 +17,7 @@ If invalid JSON is sent, a JSON response with HTTP status 400 Bad Request, and w
 ### Installation steps:
 
 Note: This API was written using Python 3.6.4
-1. Clone the repository by copying the SSH link and running `git clone \<paste_link_here\>` in the directory you want to clone into
+1. Clone the repository by copying the SSH link and running `git clone <paste_link_here>` in the directory you want to clone into
 2. Make sure you're in the cloned folder
 3. Create a python virtual environment (See https://docs.python.org/3/library/venv.html)
    <br>`python3 -m venv venv` works on mac
