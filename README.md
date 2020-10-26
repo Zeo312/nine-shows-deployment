@@ -25,7 +25,7 @@ Note: This API was written using Python 3.6.4
 5. Run `export FLASK_APP=app.api`
 6. Run `flask run`
 
-Now, you should be able to post your json data to the endpoint '/processjson' on localhost like 'localhost:\<port\>/processjson'
+Now, you should be able to POST your json data to the endpoint '/processjson' on localhost like 'localhost:\<port\>/processjson'
 
 ### Testing
 
@@ -35,4 +35,4 @@ Now, you should be able to post your json data to the endpoint '/processjson' on
 ## Deployment
 
 This API is deployed on heroku.
-You can post your data to https://nine-shows-deployment.herokuapp.com/processjson using a service like postman (https://www.postman.com/)
+You can POST your data to https://nine-shows-deployment.herokuapp.com/processjson using a service like postman (https://www.postman.com/)
