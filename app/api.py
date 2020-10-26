@@ -1,7 +1,8 @@
-from flask import Blueprint, request
+from flask import Flask, Blueprint, request
 from flask import jsonify
 from werkzeug.exceptions import HTTPException, BadRequest
 import json
+
 
 api = Blueprint('api', __name__)
 
@@ -51,3 +52,13 @@ def setup_api_routes(api):
 	    })
 	    response.content_type = "application/json"
 	    return response
+
+
+def create_app():
+	app = Flask(__name__)
+
+	app.register_blueprint(api)
+
+	setup_api_routes(app)
+ 
+	return app
