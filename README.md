@@ -6,7 +6,7 @@ Example request: http://codingchallenge.nine.com.au/sample_request.json
 <br>Example response: http://codingchallenge.nine.com.au/sample_response.json
 
 
-If invalid JSON is sent, a JSON response with HTTP status 400 Bad Request, and with an "error" key containing the string "Could not decode request". For example:
+If invalid JSON is sent, a JSON response with HTTP status 400 Bad Request, and with an "error" key containing the string "Could not decode request" is returned. For example:
 
 {
     "error": "Could not decode request: JSON parsing failed"
